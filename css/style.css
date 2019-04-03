@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+body {
+    background: #f4f4f4;
+    overflow: hidden;
+}
+
+.phone {
+    position: relative;
+    margin: 4% auto;
+    width: 360px;
+    max-width: auto;
+    height: 660px;
+    border: 1.5px solid #e6e6e6;
+    border-radius: 8px;
+    overflow-y: auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.header {
+    position: relative;
+    padding: 25px;
+    width: 100%;
+    background: linear-gradient(to right, #7a41ff, #2f0fe4);
+    color: #fff;
+    line-height: 28px !important;
+    outline: none;
+}
+
+.removeText {
+    outline: none;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 4px 15px;
+    display: inline;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.header p {
+    font-size: 16px;
+}
+
+.phone h1 {
+    color: #fff;
+    float: right;
+}
+
+.phone .searchinput {
+    margin: 8px 0;
+    padding: 5px;
+}
+
+.phone .taskinput {
+    padding: 5px;
+    margin: 0 10px 0 0;
+}
+
+.phone ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.phone li {
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+.phone button {
+    margin: 0 35px;
+    float: right;
+    padding: 1px 2px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
